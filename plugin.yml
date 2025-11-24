@@ -1,0 +1,17 @@
+name: SkyWars
+version: 1.0.0
+main: Marquez\SkyWars\SkyWars
+api: 5.0.0
+author: Marquez
+description: Enterprise-level SkyWars plugin with queue system, map voting, and multiple game modes
+
+permissions:
+  skywars.command:
+    default: true
+    description: Allows access to /sw command
+  skywars.admin:
+    default: op
+    description: Allows access to admin commands
+  skywars.setup:
+    default: op
+    description: Allows creating and editing arenas

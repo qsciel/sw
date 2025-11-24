@@ -1,0 +1,66 @@
+# SkyWars Configuration File
+
+# Lobby settings
+lobby:
+  # World name where the queue lobby is located
+  world: "world"
+  # Spawn coordinates in the lobby
+  spawn:
+    x: 0
+    y: 100
+    z: 0
+
+# Game mode settings
+game-modes:
+  solo:
+    enabled: true
+    min-players: 3
+    max-players: 12
+    team-size: 1
+  duos:
+    enabled: true
+    min-players: 3
+    max-players: 16
+    team-size: 2
+  squads:
+    enabled: true
+    min-players: 3
+    max-players: 16
+    team-size: 4
+
+# Game settings
+game:
+  # Countdown in seconds before game starts (in queue lobby)
+  lobby-countdown: 30
+  # Countdown in seconds before cages open
+  cage-countdown: 5
+  # Maximum game time in seconds (0 = unlimited)
+  max-game-time: 600
+  # Automatically start when max players reached
+  auto-start-on-full: true
+  # Enable chest refill
+  chest-refill:
+    enabled: true
+    interval: 60
+  # Enable kill rewards
+  kill-rewards:
+    enabled: true
+    items: []
+
+# Queue settings
+queue:
+  # Send "waiting for players" tip interval (seconds)
+  waiting-tip-interval: 5
+  # Allow players to vote for maps
+  map-voting: true
+  # Number of maps to show in voting
+  maps-to-vote: 3
+
+# Scoreboard settings
+scoreboard:
+  enabled: true
+  # Update interval in ticks (20 ticks = 1 second)
+  update-interval: 20
+
+# Debug mode
+debug: false

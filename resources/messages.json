@@ -1,0 +1,105 @@
+{
+  "prefix": "§l§bSKYWARS §r§7» §r",
+  
+  "queue": {
+    "joined": "§aYou joined the {mode} queue!",
+    "left": "§cYou left the queue.",
+    "already_in_queue": "§cYou are already in a queue!",
+    "already_in_game": "§cYou are already in a game!",
+    "waiting_for_players": "§eWaiting for players... §7({current}/{min})",
+    "game_starting": "§aGame starting in §e{time} §aseconds!",
+    "map_voting_started": "§aVote for a map using the item in your inventory!",
+    "voted_for_map": "§aYou voted for §e{map}§a!",
+    "already_voted": "§cYou already voted!",
+    "most_voted_map": "§aMost voted map: §e{map}",
+    "random_map_selected": "§eNo votes! Random map selected: §e{map}"
+  },
+  
+  "game": {
+    "started": "§aThe game has started! §eGood luck!",
+    "cage_opening": "§eCages opening in §c{time} §eseconds!",
+    "cages_opened": "§aGo! Fight and survive!",
+    "player_eliminated": "§c{player} §7was eliminated! §e{remaining} §7remaining.",
+    "you_eliminated": "§cYou were eliminated! Now spectating.",
+    "player_quit": "§7{player} quit. §e{remaining} §7remaining.",
+    "winner": "§6§l{player} §r§ewon the game!",
+    "team_winner": "§6§lTeam {team} §r§ewon the game!",
+    "game_ended": "§aGame ended! Teleporting to lobby...",
+    "kill": "§a+1 Kill! §7({kills} total)",
+    "no_pvp_countdown": "§cYou cannot attack during countdown!",
+    "no_break_blocks": "§cYou cannot break blocks!",
+    "no_place_blocks": "§cYou cannot place blocks here!",
+    "spectator_mode": "§7You are now spectating. Use §e/sw leave §7to exit."
+  },
+  
+  "admin": {
+    "arena_created": "§aArena §e{arena} §acreated! Use §e/sw edit {arena} §ato configure it.",
+    "arena_deleted": "§aArena §e{arena} §adeleted!",
+    "arena_not_found": "§cArena §e{arena} §cnot found!",
+    "arena_exists": "§cArena §e{arena} §calready exists!",
+    "lobby_set": "§aLobby spawn set to your current location!",
+    "setup_started": "§aArena setup started for §e{arena}§a!",
+    "setup_complete": "§aArena setup complete! Arena is now available.",
+    "setup_cancelled": "§cArena setup cancelled.",
+    "cage_added": "§aCage §e{number} §aadded at your location!",
+    "chest_added": "§aChest location added!",
+    "spectator_spawn_set": "§aSpectator spawn set!",
+    "force_start": "§aForce starting game...",
+    "force_stop": "§cForce stopping game...",
+    "game_not_found": "§cNo active game found!",
+    "not_in_setup": "§cYou are not in setup mode!",
+    "no_permission": "§cYou don't have permission to use this command!",
+    "invalid_arena": "§cInvalid arena configuration! Missing required data."
+  },
+  
+  "forms": {
+    "game_mode_title": "Select Game Mode",
+    "game_mode_content": "Choose a game mode to join:",
+    "solo_button": "§aSolo\n§71v1v1... | {players} playing",
+    "duos_button": "§bDuos\n§72v2v2... | {players} playing",
+    "squads_button": "§6Squads\n§74v4v4... | {players} playing",
+    
+    "vote_title": "Vote for a Map",
+    "vote_content": "Select the map you want to play:",
+    "vote_random": "§eRandom Map",
+    
+    "setup_title": "Arena Setup - {arena}",
+    "setup_content": "What would you like to configure?",
+    "setup_add_cage": "§aAdd Cage",
+    "setup_add_chest": "§eAdd Chest Location",
+    "setup_set_spectator": "§7Set Spectator Spawn",
+    "setup_set_modes": "§bConfigure Game Modes",
+    "setup_finish": "§2Finish Setup",
+    "setup_cancel": "§cCancel",
+    
+    "modes_title": "Configure Game Modes",
+    "modes_content": "Select which game modes this arena supports:",
+    "mode_solo": "Solo",
+    "mode_duos": "Duos",
+    "mode_squads": "Squads"
+  },
+  
+  "items": {
+    "vote_name": "§aVote for Map",
+    "vote_lore": [
+      "§7Click to vote for your",
+      "§7favorite map!"
+    ],
+    "leave_name": "§cLeave Queue",
+    "leave_lore": [
+      "§7Click to leave the queue"
+    ]
+  },
+  
+  "errors": {
+    "player_not_found": "§cPlayer not found!",
+    "not_in_queue": "§cYou are not in a queue!",
+    "not_in_game": "§cYou are not in a game!",
+    "no_arenas_available": "§cNo arenas available for this game mode!",
+    "arena_in_use": "§cThis arena is currently in use!",
+    "command_usage": "§cUsage: {usage}",
+    "must_be_player": "§cThis command can only be used by players!",
+    "world_not_loaded": "§cThe world §e{world} §cis not loaded!",
+    "teleport_failed": "§cFailed to teleport player!"
+  }
+}
